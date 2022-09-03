@@ -4,11 +4,25 @@ body{
 }
 header{
     background: #4e4e4e;
+    padding: 20px 0; /*Espaçamento interno*/
+}
+
+.caixa{
+    position: relative;/*posição da caixa relativa para acompanhar a posição absoluta do nav*/
+    width: 940px;
+    margin: 0 auto; /*Para calcular a margem da esquerda e direita automaticamente é usado auto*/
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
 nav li {
     display: inline;
     margin: 0 0 0 15px;
+   
 }
 nav a {
     text-transform: uppercase; /*Para deixar o texto em maiúsculo*/
