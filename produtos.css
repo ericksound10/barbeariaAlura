@@ -2,3 +2,18 @@ body{
     background: rgb(34, 34, 34);
     color: white;
 }
+header{
+    background: #4e4e4e;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase; /*Para deixar o texto em maiúsculo*/
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none; /*Para tirar formatação feita pelo navegador*/
+}
