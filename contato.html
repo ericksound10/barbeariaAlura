@@ -23,32 +23,41 @@
         <main>
             <form>
                 <label for="nome">Nome e Sobrenome</label>
-                <input typy="text" id="nome">
+                <input typy="text" id="nome" class="input-padrao">
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input type="text" id="email" class="input-padrao">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input type="text" id="telefone" class="input-padrao">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" cols="70" rows="10"></textarea>
+                <textarea id="mensagem" class="input-padrao" cols="70" rows="10"></textarea>
 
                 <div>
                     <p>Como prefere o nosso contato?</p>
                 
-                    <label for="radio-email">E-mail</label>
-                    <input type="radio" name="contato" value="emial" id="radio-email">
+                    <label for="radio-email"><input type="radio" name="contato" value="emial" id="radio-email">E-mail</label>
+                    
                 
-                    <label for="radio-telefone">Telefone</label>
-                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
                 
-                    <label for="radio-whatsapp">WhatsApp</label>
-                    <input type="radio" name="contato" value="whatsApp" id="radio-whatsapp">
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsApp" id="radio-whatsapp">WhatsApp</label>
+                    
+                </div>
+
+                <div>
+                    <p>Qual horário prefere ser atendido</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
                 </div>
 
                 <label>
-                    <input type="checkbox">
+                    <input class="checkbox" type="checkbox">
                     Gostaria de receber nossas novidades por e-mail?
                 </label>
 
