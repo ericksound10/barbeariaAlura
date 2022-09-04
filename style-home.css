@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover{
-    color:rgb(63, 110, 212);
+    color:orange;
     text-decoration:underline;
 }
 .produtos{
@@ -55,12 +55,12 @@ nav a:hover{
 }
 
 .produtos li:hover{
-    border-color:rgb(63, 110, 212);
+    border-color:orange;
 }
 
 .produtos li:active{
-    border-color: blueviolet;
-    color: rgb(63, 110, 212);
+    color: darkorange;
+    border-color: #FFFFFF;
 }
 
 .produtos li:hover h2{
