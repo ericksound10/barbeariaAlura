@@ -73,6 +73,23 @@ form label, form legend{
     margin: 20px 0;
 }
 
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none; 
+    transition: 2s background; /*Serve para fazer a transição do botão demorar um pouco*/
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+}
+
 footer{
     text-align: center;
     background: url("./imagens/bg.jpg");
