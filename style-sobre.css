@@ -1,0 +1,44 @@
+body{
+    background: hsl(0, 0%, 16%)
+    
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    padding: 30px;
+    background: hsl(0, 0%, 10%)
+}
+.titulo-centralizado{
+    text-align: center;
+    font-style: oblique;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+#missao {
+    font-size: 20px"
+}
+em strong{
+    color: red;
+}
+.beneficios{
+    color: white;
+    padding: 20px;
+}
+.itens{
+    font-style: italic;
+    color: white;
+    list-style-position: inside;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imgbeneficios{
+    width: 50%;
+}
