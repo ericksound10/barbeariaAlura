@@ -1,0 +1,119 @@
+body{
+    background: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #3b3a3a;
+    padding: 20px 0; /*Espaçamento interno*/
+}
+
+.caixa{
+    position: relative;/*posição da caixa relativa para acompanhar a posição absoluta do nav*/
+    width: 940px;
+    margin: 0 auto; /*Para calcular a margem da esquerda e direita automaticamente é usado *auto*/
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+   
+}
+nav a {
+    text-transform: uppercase; /*Para deixar o texto em maiúsculo*/
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none; /*Para tirar formatação feita pelo navegador*/
+}
+
+nav a:hover{
+    color:orange;
+    text-decoration:underline;
+}
+
+.servicos{
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.produtos{
+    /*background: rgb(38, 38, 38);*/
+    width: 940px;
+    margin: 20px auto;
+    padding: 20px auto;
+    
+    }
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: 20px 20px;
+    margin: 5.5% 1.5%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px; /*Serve para arrendodar as bordas*/
+}
+
+.produtos li:hover{
+    border-color:orange;
+    transform: scale(1.2);
+}
+
+.produtos li:active{
+    color: darkorange;
+    border-color: #FFFFFF;
+}
+
+.produtos li:hover h2{
+    transform: scale(1.2);
+    margin: 0 1.5%;
+    vertical-align: 20%;
+}
+
+.produtos h2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.desc-produto{
+    font-size: 22px;
+    margin-top: 0 1.5%;
+}
+
+.preco-produto{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.servicos{
+    /*background: rgb(38, 38, 38);*/
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+}

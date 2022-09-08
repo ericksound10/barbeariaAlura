@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" >
-        <title>Contato - Barbearia Alura</title>
-        <link rel="stylesheet" href="reset.css"> <!--Para retirar os estilos do navegador, arquivo padrão utilizado-->
-        <link rel="stylesheet" href="style.css"> <!--Referenciando o arquivo .CSS -->
-    </head>
-    <body>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+            <title>Contato - Barbearia Alura</title>
+            <link rel="stylesheet" href="reset.css">
+            <!--Para retirar os estilos do navegador, arquivo padrão utilizado-->
+            <link rel="stylesheet" href="style-contato.css">
+            <!--Referenciando o arquivo .CSS -->
+            
+            <!--Importando fonte do google-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+        
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+        </head>
+        
+        <body>
+
         <header>
             <div class="caixa"> <!--Criação da classe para referenciar no css-->
                 <img src="./imagens/logo-branco.png" alt="Logo Barbearia"> <!--Para inserir a imagem/logo na tag header -->        
                 <nav>
                     <Ul>
-                        <li><a href="sobre.html">Home</a></li>
-                        <li><a href="index.html">Produtos</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
                         <li><a href="contato.html">Contato</a></li>
                     </Ul>
                 </nav>
@@ -21,6 +39,7 @@
         </header>
 
         <main>
+            <p class="contato">Entre em Contato Conosco</p>
             <form>
                 <label for="nome">Nome e Sobrenome</label>
                 <input typy="text" id="nome" class="input-padrao" required placeholder="João Silva">

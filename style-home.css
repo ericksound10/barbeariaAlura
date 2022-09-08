@@ -1,84 +1,65 @@
-body{
-    background: rgb(34, 34, 34);
-    color: white;
-}
-header{
-    background: #3b3a3a;
-    padding: 20px 0; /*Espaçamento interno*/
-}
+@import './style-contato.css';
+@import './style-produto.css';
 
-.caixa{
-    position: relative;/*posição da caixa relativa para acompanhar a posição absoluta do nav*/
-    width: 940px;
-    margin: 0 auto; /*Para calcular a margem da esquerda e direita automaticamente é usado auto*/
-}
-
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-   
-}
-nav a {
-    text-transform: uppercase; /*Para deixar o texto em maiúsculo*/
-    color: white;
-    font-weight: bold;
-    font-size: 23px;
-    text-decoration: none; /*Para tirar formatação feita pelo navegador*/
-}
-
-nav a:hover{
-    color:orange;
-    text-decoration:underline;
-}
-.produtos{
+/*
+.sobre-barbearia{
+    background: rgb(54, 53, 53);
+    position: relative;
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+}*/
+
+
+/*CSS Página Inicial - Home*/
+
+/*
+.banner{
+    width: 100%;
 }
 
-.produtos li{
-    display: inline-block;
+.titulo-principal{
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #FFFFFF;
-    border-radius: 10px; /*Serve para arrendodar as bordas*/
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
-
-.produtos li:hover{
-    border-color:orange;
-}
-
-.produtos li:active{
+.principal b{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 32px;
     color: darkorange;
-    border-color: #FFFFFF;
 }
 
-.produtos li:hover h2{
-    font-size: 34px;
+.principal p{
+    margin:  0 0 1em;
 }
 
-.produtos h2{
+.principal strong{
+    font-weight: bold;
+    color: darkorange;
+    font-family: 'Courgette', cursive;
     font-size: 30px;
-    font-weight: bold;
 }
-.desc-produto{
-    font-size: 18px;
+
+.principal em{
+    font-style: italic;
 }
-.preco-produto{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+
+.titulo-beneficios{
+    text-align: center;
+    font-size: 2em;
 }
+
+.imgbeneficios{
+    width: 60%;
+}
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+}*/
+
+/*Rodapé*/
 
 footer{
     text-align: center;

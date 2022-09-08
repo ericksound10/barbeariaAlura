@@ -1,44 +1,149 @@
 body{
-    background: hsl(0, 0%, 16%)
-    
+    background: rgb(30, 30, 30);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
-#banner{
+
+header{
+    background: #3b3a3a;
+    padding: 20px 0; /*Espaçamento interno*/
+}
+
+.caixa{
+    position: relative;/*posição da caixa relativa para acompanhar a posição absoluta do nav*/
+    width: 940px;
+    margin: 0 auto; /*Para calcular a margem da esquerda e direita automaticamente é usado *auto*/
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+   
+}
+nav a {
+    text-transform: uppercase; /*Para deixar o texto em maiúsculo*/
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none; /*Para tirar formatação feita pelo navegador*/
+}
+
+nav a:hover{
+    color:orange;
+    text-decoration:underline;
+}
+
+main{
+    position: relative;
+    background: rgb(30, 30, 30);
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+/*CSS Página Inicial - Home*/
+
+.banner{
     width: 100%;
 }
-.principal{
-    padding: 30px;
-    background: hsl(0, 0%, 10%)
-}
-.titulo-centralizado{
+
+.titulo-principal{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-style: oblique;
-    color: white;
+    font-size: 2em;
+    margin: 1em 0;
 }
-p{
+
+.principal h3{
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.principal b{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1em;
+    color: darkorange;
     text-align: center;
-    color: white;
 }
-#missao {
-    font-size: 20px"
+
+/*.principal p{
+    font-family: 'Montserrat', sans-serif;
+}*/
+
+.principal strong{
+    font-weight: bold;
+    color: darkorange;
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
 }
-em strong{
-    color: red;
+
+.conteudo-beneficios{
+    width: 640px; /*largura*/
+    margin: 0 auto;
+
 }
-.beneficios{
-    color: white;
-    padding: 20px;
-}
-.itens{
-    font-style: italic;
-    color: white;
-    list-style-position: inside;
-}
-ul{
+
+.lista-beneficios{
+    width: 40%; /*largura*/
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+
 }
-.imgbeneficios{
-    width: 50%;
+
+.imagem-beneficios{
+    width: 60%;
+    }
+
+.mapa{
+    padding: 3em 0;
+    
+}
+
+.mapa p{
+    margin: 2em 0;
+    text-align: center;
+}
+
+.titulo-beneficios{
+    text-align: center;
+    font-size: 2em;
+    width: 940px;
+}
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+    clear: left;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+/*Rodapé*/
+
+footer{
+    text-align: center;
+    background: url("./imagens/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+
 }
