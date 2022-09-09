@@ -1,63 +1,56 @@
 @import './style-contato.css';
 @import './style-produto.css';
 
-/*
-.sobre-barbearia{
-    background: rgb(54, 53, 53);
-    position: relative;
+/*Home da pagina sobre a barbearia*/
+
+main.sobre-barbearia{
+    width: auto;
+    margin: 20px auto;
+    background: rgb(34, 34, 34);
+}
+
+main.sobre-barbearia p{
+    background: rgb(34, 34, 34);
+}
+
+section.principal{
     width: 940px;
+    margin: 20px auto;
+    background: rgb(34, 34, 34);
+}
+
+section.mapa{
+    width: 940px;
+    margin: 20px auto;
+
+}
+
+/*Home da pagina de Produtos*/
+
+main.produtos{
+    background: linear-gradient(darkorange, rgb(0, 0, 0));
+    width: auto;
     margin: 0 auto;
-}*/
-
-
-/*CSS Página Inicial - Home*/
-
-/*
-.banner{
-    width: 100%;
 }
 
-.titulo-principal{
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-}
-.principal b{
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 32px;
-    color: darkorange;
+p.desc-produto{
+    font-size: 22px;
+    /*margin-top: 0 1.5%;*/
+
 }
 
-.principal p{
-    margin:  0 0 1em;
+
+/*Home da pagina de contato*/
+
+main.pagecontato{
+    width: 940px;
+    margin: 20px auto;
+    background: rgb(34, 34, 34);
 }
 
-.principal strong{
-    font-weight: bold;
-    color: darkorange;
-    font-family: 'Courgette', cursive;
-    font-size: 30px;
+main.pagecontato form{
+    background: rgb(34, 34, 34);
 }
-
-.principal em{
-    font-style: italic;
-}
-
-.titulo-beneficios{
-    text-align: center;
-    font-size: 2em;
-}
-
-.imgbeneficios{
-    width: 60%;
-}
-
-.utensilios{
-    width: 120px;
-    float:left;
-    margin: 0 20px 20px 0;
-}*/
 
 /*Rodapé*/
 

@@ -1,5 +1,5 @@
 body{
-    background: rgb(36, 35, 35);
+    background: linear-gradient(darkorange, rgb(0, 0, 0));
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -67,12 +67,16 @@ nav a:hover{
 }
 
 .produtos li:hover{
-    border-color:orange;
+    -webkit-text-fill-color: white;
+    background: linear-gradient(darkorange, rgb(0, 0, 0));
+    border-color: black;
     transform: scale(1.2);
+    transition: 1s all;
+    cursor: pointer;
 }
 
 .produtos li:active{
-    color: darkorange;
+    color: blue;
     border-color: #FFFFFF;
 }
 
