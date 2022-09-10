@@ -152,3 +152,68 @@ footer{
     margin: 20px 0 0;
 
 }
+
+/*Tornando o site responsivo para dispositiveis móveis*/
+
+@media screen and (max-width: 560px) {
+
+    .caixa, main,
+    section.principal,
+    section.mapa,
+    .sobre-barbearia,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    section.video,
+    .titulo-principal,
+    p {
+        width: auto;
+        /*margin-left: auto;
+        margin-right: auto;*/
+    }
+
+    .imagem-logo{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    /*
+
+    .missao{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .missao em{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .missao strong{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }*/
+
+    nav {
+        position:static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%
+    }
+
+    .mapa-conteudo{
+        display: block;
+    margin-left: 100px;
+    }
+}

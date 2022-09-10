@@ -127,3 +127,38 @@ footer{
     margin: 20px 0 0;
 
 }
+
+/*Tornando o site responsivo para dispositiveis móveis*/
+
+@media screen and (max-width: 560px) { 
+    .caixa, .principal, .contato, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    .imagem-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position:static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%
+    }
+
+    .checkbox #text{
+        width: auto;
+        margin: 2em;
+    }
+}
